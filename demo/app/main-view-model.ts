@@ -1,16 +1,19 @@
 import {Observable} from 'data/observable';
-import {GMImagePicker} from 'nativescript-gmimagepicker';
+// let GMImagePicker = require('nativescript-gmimagepicker')
 
 export class HelloWorldModel extends Observable {
-  public message: string;
+	public message: string;
 
-  constructor() {
-    super();
-    this.message = 'GMImagePicker';
-    
-    console.log('GMImagePicker >');
-    console.dump(GMImagePicker);
-    console.log(GMAlbumsViewCell);
+	constructor() {
+		super();
+		this.message = 'GMImagePicker';
 
-  }
+		console.dump(GMAlbumsViewCell);
+		console.dump(GMAlbumsViewController);
+		console.dump(GMGridViewCell);
+		console.dump(GMGridViewController);
+		console.dump(GMImagePickerController);
+		console.dump(GMImagePickerControllerDelegate);
+
+	}
 }

@@ -1,9 +1,13 @@
 {
 	"name": "nativescript-GMImagePicker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A NativeScript plugin that wraps GMImagePicker for iOS",
 	"main": "gmimagepicker.js",
-	"typings": "index.d.ts",
+	"typescript": {
+		"definitions": [
+			"GMImagePicker.d.ts"
+		]
+	},
 	"nativescript": {
 		"platforms": {
 			"ios": "2.0.0"

@@ -1,0 +1,6 @@
+framework module GMImagePicker {
+	umbrella header "Headers/GMImagePickerController.h"
+	export *
+	module * { export * }
+}
+
